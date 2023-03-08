@@ -1,6 +1,32 @@
 header {
-  background-color: antiquewhite; }
+  background-color: beige; }
   header h1 {
-    align-items: center; }
-  header p {
-    align-content: center; }
+    align-items: center;
+    text-decoration: dotted; }
+    header h1 p {
+      align-content: center;
+      text-decoration: solid; }
+
+main {
+  align-content: center; }
+  main section .carousel-indicators .carousel-inner img {
+    width: 100px;
+    height: 100px; }
+    main section .carousel-indicators .carousel-inner img p {
+      text-align: center;
+      text-decoration: none; }
+
+nav {
+  background-color: red !important; }
+  nav .navbar-brand {
+    width: 100px; }
+    nav .navbar-brand .navbar-toggler {
+      width: 100px; }
+      nav .navbar-brand .navbar-toggler ul {
+        font-size: 20px; }
+        nav .navbar-brand .navbar-toggler ul li {
+          list-style: none; }
+          nav .navbar-brand .navbar-toggler ul li a {
+            color: black; }
+            nav .navbar-brand .navbar-toggler ul li a:hover {
+              color: black; }

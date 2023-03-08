@@ -1,19 +1,17 @@
-header {
-    background-color: green;
-    nav {
-        width: 100px;
-        ul {
-            font-size: 20px;
-            font-style: $roboto;
-            li {
-                list-style: lower-greek;
-                a {
-                   color: $colorespecial; 
-                }
-                &:hover {
-                    background-color: chocolate;
-                }
-            }
-        }
+header { background-color: beige;
+
+     h1 { align-items: center;
+         text-decoration: dotted;
+
+        p { align-content: center;
+            text-decoration: solid;
+    
+    
     }
 }
+
+}
+
+
+
+

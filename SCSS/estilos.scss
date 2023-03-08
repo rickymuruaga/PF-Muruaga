@@ -1,12 +1,7 @@
-header {
-         background-color: antiquewhite;
-     
-         h1 { align-items: center;
-         }
-    p { align-content: center;
-
-    }
-}
+@import "./paginas/contactobase/header";
+@import "./paginas/contactobase/main";
+@import "./paginas/contactobase/nav";
+@import "./utilidades/variables";
 
 
 

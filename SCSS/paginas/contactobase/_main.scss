@@ -1,33 +1,28 @@
-main {
-    section {
-        article { 
-                text-align: center;
-            h1 { 
-                color: $colorespecial;
-            }
-            p { 
-                color: red; 
-                font-size: $medida-texto;
-                font-style: $roboto;
-
-            }
-        }
-    }
+main { align-content: center;
     
-    aside {
-        p { 
-            color: blue;
-            font-size: ($medida-texto * 2) +2;
-            
+    
+    section {
+        
+        
+        .carousel-indicators{
+
+        
+            .carousel-inner{
+
+                img { width: 100px;
+                      height: 100px;
+
+                    p { 
+                        text-align: center;
+                        text-decoration: none;
+
+                    }
+
+                }
 
         }
-        button { 
-            width: $ancho-boton;
-            height: 50px;
-            background-color: aqua;
-            color: black;
-            padding: 20px;  
-            margin: 10px;
-        }
+        
+    }
+
     }
 }
