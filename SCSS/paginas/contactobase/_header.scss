@@ -1,0 +1,19 @@
+header {
+    background-color: green;
+    nav {
+        width: 100px;
+        ul {
+            font-size: 20px;
+            font-style: $roboto;
+            li {
+                list-style: lower-greek;
+                a {
+                   color: $colorespecial; 
+                }
+                &:hover {
+                    background-color: chocolate;
+                }
+            }
+        }
+    }
+}

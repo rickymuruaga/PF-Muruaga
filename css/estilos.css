@@ -1,26 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
-}
-
-
-@media (min-width: 576px) { }
-
-
-@media (min-width: 768px)  {
-
-}
-
-
-@media (min-width: 992px) { }
-
-
-@media (min-width: 1200px) { } 
-
-
-@media (min-width: 1400px) { }
-
-.logofacebook {
-    max-width: 150px;
-}
+header {
+  background-color: antiquewhite; }
+  header h1 {
+    align-items: center; }
+  header p {
+    align-content: center; }

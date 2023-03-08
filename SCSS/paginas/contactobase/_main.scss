@@ -1,0 +1,33 @@
+main {
+    section {
+        article { 
+                text-align: center;
+            h1 { 
+                color: $colorespecial;
+            }
+            p { 
+                color: red; 
+                font-size: $medida-texto;
+                font-style: $roboto;
+
+            }
+        }
+    }
+    
+    aside {
+        p { 
+            color: blue;
+            font-size: ($medida-texto * 2) +2;
+            
+
+        }
+        button { 
+            width: $ancho-boton;
+            height: 50px;
+            background-color: aqua;
+            color: black;
+            padding: 20px;  
+            margin: 10px;
+        }
+    }
+}
