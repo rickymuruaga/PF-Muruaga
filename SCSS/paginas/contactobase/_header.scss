@@ -1,10 +1,18 @@
-header { background-color: beige;
+header { 
+        background-color: beige;
+         
 
      h1 { align-items: center;
          text-decoration: dotted;
+         ;
 
-        p { align-content: center;
+        p { 
+            
+            align-content:flex-end;
             text-decoration: solid;
+            margin: 25px;
+            padding: 20px;
+
     
     
     }

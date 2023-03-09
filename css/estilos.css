@@ -4,8 +4,10 @@ header {
     align-items: center;
     text-decoration: dotted; }
     header h1 p {
-      align-content: center;
-      text-decoration: solid; }
+      align-content: flex-end;
+      text-decoration: solid;
+      margin: 25px;
+      padding: 20px; }
 
 main {
   align-content: center; }
@@ -16,17 +18,24 @@ main {
       text-align: center;
       text-decoration: none; }
 
-nav {
-  background-color: red !important; }
-  nav .navbar-brand {
+nav .navbar-brand {
+  width: 100px; }
+  nav .navbar-brand .navbar-toggler {
     width: 100px; }
-    nav .navbar-brand .navbar-toggler {
-      width: 100px; }
-      nav .navbar-brand .navbar-toggler ul {
-        font-size: 20px; }
-        nav .navbar-brand .navbar-toggler ul li {
-          list-style: none; }
-          nav .navbar-brand .navbar-toggler ul li a {
+    nav .navbar-brand .navbar-toggler ul {
+      font-size: 20px; }
+      nav .navbar-brand .navbar-toggler ul li {
+        list-style: none; }
+        nav .navbar-brand .navbar-toggler ul li a {
+          color: black; }
+          nav .navbar-brand .navbar-toggler ul li a:hover {
             color: black; }
-            nav .navbar-brand .navbar-toggler ul li a:hover {
-              color: black; }
+
+footer {
+  margin: 0px;
+  padding: 0px; }
+  footer img {
+    width: 50px;
+    height: 50px; }
+  footer p {
+    font-size: 1rem; }
