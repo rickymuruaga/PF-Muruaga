@@ -1,11 +1,22 @@
+@media only screen and (max-width: 767px) {
+  body h1 {
+    font-size: 2rem; }
+  body h3 {
+    font-size: 25px; }
+  body p {
+    font-size: .5rem; } }
+
 header {
-  background-color: beige; }
+  background-color: beige;
+  font-size: 15px; }
   header h1 {
     align-items: center;
-    text-decoration: dotted; }
+    text-decoration: dotted;
+    font-family: Courier New monospace; }
     header h1 p {
-      align-content: flex-end;
-      text-decoration: solid;
+      align-content: center;
+      font-family: Courier New monospace;
+      font-size: 15px;
       margin: 25px;
       padding: 20px; }
 
@@ -15,8 +26,7 @@ main {
     width: 100px;
     height: 100px; }
     main section .carousel-indicators .carousel-inner img p {
-      text-align: center;
-      text-decoration: none; }
+      font-size: 40px; }
 
 nav .navbar-brand {
   width: 100px; }
@@ -32,10 +42,9 @@ nav .navbar-brand {
             color: black; }
 
 footer {
-  margin: 0px;
-  padding: 0px; }
+  margin: 20px;
+  padding: 25px;
+  background: #191970; }
   footer img {
     width: 50px;
     height: 50px; }
-  footer p {
-    font-size: 1rem; }

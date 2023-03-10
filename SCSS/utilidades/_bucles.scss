@@ -1,8 +1,0 @@
-@for $i from 1 through 6 {
-	
-	#row#{$i} {
-	width: 15% * $i;
-	height: 5% * $i;
-	background-color: orange;
-	}
-}

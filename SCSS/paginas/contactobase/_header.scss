@@ -1,17 +1,22 @@
 header { 
         background-color: beige;
+        font-size: $tamañoheader;
+
          
 
      h1 { align-items: center;
          text-decoration: dotted;
-         ;
-
+         font-family: $textoheader;
+         
         p { 
             
-            align-content:flex-end;
-            text-decoration: solid;
+            align-content: center;
+            font-family: $textoheader;
+            font-size: $tamañoheader;
             margin: 25px;
             padding: 20px;
+            
+            
 
     
     

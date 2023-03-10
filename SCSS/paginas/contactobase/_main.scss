@@ -12,11 +12,8 @@ main { align-content: center;
                 img { width: 100px;
                       height: 100px;
 
-                    p { 
-                        
-                        text-align: center;
-                        text-decoration: none;
-
+                    p {
+                        font-size: $tamañomain *2;
                     }
 
                 }
