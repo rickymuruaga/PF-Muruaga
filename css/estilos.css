@@ -42,8 +42,10 @@ nav .navbar-brand {
             color: black; }
 
 footer {
-  margin: 20px;
-  padding: 25px;
+  bottom: 0;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
   background: #191970; }
   footer img {
     width: 50px;
