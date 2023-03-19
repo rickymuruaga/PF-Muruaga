@@ -7,13 +7,16 @@
     font-size: .5rem; } }
 
 header {
-  background-color: beige;
+  margin: 0;
+  padding: 0;
   font-size: 15px; }
   header h1 {
+    text-align: center;
     align-items: center;
     text-decoration: dotted;
     font-family: Courier New monospace; }
     header h1 p {
+      text-align: center;
       align-content: center;
       font-family: Courier New monospace;
       font-size: 15px;
@@ -21,23 +24,33 @@ header {
       padding: 20px; }
 
 main {
+  padding: 0;
+  margin: 0;
   align-content: center; }
-  main section .carousel-indicators .carousel-inner img {
-    width: 100px;
-    height: 100px; }
-    main section .carousel-indicators .carousel-inner img p {
-      font-size: 40px; }
+  main section .carousel-indicators .carousel-inner {
+    align-items: center; }
+    main section .carousel-indicators .carousel-inner img {
+      width: 100px;
+      height: 100px; }
+      main section .carousel-indicators .carousel-inner img p {
+        font-size: 40px; }
   main .container {
     max-width: 1080px;
     width: 100%;
     margin: auto;
-    padding: 32px; }
+    padding: 32px;
+    background-color: black; }
+  main .descripcion1 {
+    text-align: center;
+    justify-content: center; }
   main .parallax {
     height: 500px;
     background-image: url(/images/parallax.webp);
     background-size: cover;
     background-attachment: fixed; }
   main p {
+    text-align: center;
+    justify-content: centers;
     background-color: black;
     color: white; }
 

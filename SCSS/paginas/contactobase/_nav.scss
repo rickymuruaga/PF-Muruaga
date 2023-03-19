@@ -1,29 +1,28 @@
-nav { 
-      
-        
-    .navbar-brand { width: 100px;
-        
+nav{  
 
-    .navbar-toggler { width: 100px;
+     .navbar-brand { width: 100px;
+                
+        .navbar-toggler { width: 100px;
+                
+             ul { font-size: 20px;
+                
+                
+                li { 
+                    list-style: none;
+                    
+                    a { 
+                        color: black;
+                    
+                    &:hover {
 
-    ul { font-size: 20px;
-        
-        
-        li { 
-            
-             list-style: none;
-            
-            a { 
-                color: black;
-            
-            &:hover {
+                        color: black;
 
-                color: black;
-
-            }  
+                    }  
+                    }
+                }
             }
+          }   
         }
+            
     }
-    }   
-    }
-}
+

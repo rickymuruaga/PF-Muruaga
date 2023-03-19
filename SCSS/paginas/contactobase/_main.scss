@@ -1,13 +1,20 @@
-main { align-content: center;
+main { 
+        padding: 0;
+        margin: 0;
+        align-content: center;
     
     
-    section {
+    section { 
+       
         
         
         .carousel-indicators{
+            
 
         
             .carousel-inner{
+                align-items: center;
+                
 
                 img { width: 100px;
                       height: 100px;
@@ -29,17 +36,29 @@ main { align-content: center;
         width:100%;
         margin:auto;
         padding:32px;
-     }            
-    
+        background-color: black;
+     }
+                 
+     .descripcion1{
+        text-align: center;
+        justify-content: center;
+     }
      .parallax{
         height:500px;
         background-image:url(/images/parallax.webp);
         background-size:cover;
         background-attachment: fixed;
         } 
-    p{
+    
+    
+        p{
+        text-align: center;
+        justify-content: centers;
         background-color: black;
         color: white;
+
+       
+        
         
 
     }

@@ -1,26 +1,26 @@
-header { 
-        background-color: beige;
+header {
+        margin: 0;
+        padding: 0; 
         font-size: $tamañoheader;
+        
+        
 
          
 
-     h1 { align-items: center;
+     h1 { text-align: center;
+         align-items: center;
          text-decoration: dotted;
          font-family: $textoheader;
          
         p { 
-            
+            text-align: center;
             align-content: center;
             font-family: $textoheader;
             font-size: $tamañoheader;
             margin: 25px;
             padding: 20px;
             
-            
-
-    
-    
-    }
+       }
 }
 
 }
