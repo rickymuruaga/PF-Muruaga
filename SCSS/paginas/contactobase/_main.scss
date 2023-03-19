@@ -12,15 +12,35 @@ main { align-content: center;
                 img { width: 100px;
                       height: 100px;
 
+                      
+
                     p {
                         font-size: $tamañomain *2;
                     }
+            
+            }
 
-                }
-
+            
+          }
         }
-        
     }
+    .container{
+        max-width:1080px;
+        width:100%;
+        margin:auto;
+        padding:32px;
+     }            
+    
+     .parallax{
+        height:500px;
+        background-image:url(/images/parallax.webp);
+        background-size:cover;
+        background-attachment: fixed;
+        } 
+    p{
+        background-color: black;
+        color: white;
+        
 
     }
 }

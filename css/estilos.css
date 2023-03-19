@@ -27,6 +27,19 @@ main {
     height: 100px; }
     main section .carousel-indicators .carousel-inner img p {
       font-size: 40px; }
+  main .container {
+    max-width: 1080px;
+    width: 100%;
+    margin: auto;
+    padding: 32px; }
+  main .parallax {
+    height: 500px;
+    background-image: url(/images/parallax.webp);
+    background-size: cover;
+    background-attachment: fixed; }
+  main p {
+    background-color: black;
+    color: white; }
 
 nav .navbar-brand {
   width: 100px; }
