@@ -2,35 +2,36 @@ main {
         padding: 0;
         margin: 0;
         align-content: center;
+        background-color: black;
     
     
-    section { 
+    // section { 
        
         
         
-        .carousel-indicators{
+        // .carousel-indicators{
             
 
         
-            .carousel-inner{
-                align-items: center;
+        //     .carousel-inner{
+        //         align-items: center;
                 
 
-                img { width: 100px;
-                      height: 100px;
+        //         img { width: 100px;
+        //               height: 100px;
 
                       
 
-                    p {
-                        font-size: $tamañomain *2;
-                    }
+        //             p {
+        //                 font-size: $tamañomain *2;
+        //             }
             
-            }
+        //     }
 
             
-          }
-        }
-    }
+        //   }
+        // }
+    // }
     .container{
         max-width:1080px;
         width:100%;
@@ -40,8 +41,8 @@ main {
      }
                  
      .descripcion1{
-        text-align: center;
-        justify-content: center;
+        background-color: black;
+        
      }
      .parallax{
         height:500px;

@@ -1,4 +1,13 @@
 nav{  
+    .container-fluid {
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+        }
+     background-color: $navfot;
+     
+    }
+
 
      .navbar-brand { width: 100px;
                 

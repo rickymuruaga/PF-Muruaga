@@ -7,33 +7,31 @@
     font-size: .5rem; } }
 
 header {
-  margin: 0;
-  padding: 0;
-  font-size: 15px; }
+  width: 100px;
+  height: 100px;
+  font-size: 15px;
+  background-color: black;
+  color: white; }
   header h1 {
     text-align: center;
     align-items: center;
     text-decoration: dotted;
-    font-family: Courier New monospace; }
+    font-family: Courier New monospace;
+    color: white; }
     header h1 p {
       text-align: center;
       align-content: center;
       font-family: Courier New monospace;
       font-size: 15px;
-      margin: 25px;
-      padding: 20px; }
+      margin: 0;
+      padding: 0;
+      color: white; }
 
 main {
   padding: 0;
   margin: 0;
-  align-content: center; }
-  main section .carousel-indicators .carousel-inner {
-    align-items: center; }
-    main section .carousel-indicators .carousel-inner img {
-      width: 100px;
-      height: 100px; }
-      main section .carousel-indicators .carousel-inner img p {
-        font-size: 40px; }
+  align-content: center;
+  background-color: black; }
   main .container {
     max-width: 1080px;
     width: 100%;
@@ -41,8 +39,7 @@ main {
     padding: 32px;
     background-color: black; }
   main .descripcion1 {
-    text-align: center;
-    justify-content: center; }
+    background-color: black; }
   main .parallax {
     height: 500px;
     background-image: url(/images/parallax.webp);
@@ -53,6 +50,13 @@ main {
     justify-content: centers;
     background-color: black;
     color: white; }
+
+nav .container-fluid {
+  background-color: #f08d5c; }
+  @media screen and (max-width: 576px) {
+    nav .container-fluid {
+      display: flex;
+      flex-direction: column; } }
 
 nav .navbar-brand {
   width: 100px; }
@@ -68,11 +72,18 @@ nav .navbar-brand {
             color: black; }
 
 footer {
-  bottom: 0;
+  padding: 0;
+  margin: 0;
+  align-items: center;
   margin: 0px;
   padding: 0px;
-  height: 100%;
-  background: #191970; }
+  background: #f08d5c; }
+  @media screen and (max-width: 576px) {
+    footer {
+      display: flex;
+      flex-direction: column; } }
   footer img {
     width: 50px;
     height: 50px; }
+  footer p {
+    color: black; }

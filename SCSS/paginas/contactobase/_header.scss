@@ -1,7 +1,9 @@
 header {
-        margin: 0;
-        padding: 0; 
+        width: 100px;
+        height: 100px;
         font-size: $tamañoheader;
+        background-color: black;
+        color: white;
         
         
 
@@ -11,14 +13,16 @@ header {
          align-items: center;
          text-decoration: dotted;
          font-family: $textoheader;
+         color: white;
          
         p { 
             text-align: center;
             align-content: center;
             font-family: $textoheader;
             font-size: $tamañoheader;
-            margin: 25px;
-            padding: 20px;
+            margin: 0;
+            padding: 0;
+            color: white;
             
        }
 }
