@@ -1,14 +1,5 @@
 header {
-        width: 100px;
-        height: 100px;
-        font-size: $tamañoheader;
-        background-color: black;
-        color: white;
         
-        
-
-         
-
      h1 { text-align: center;
          align-items: center;
          text-decoration: dotted;
@@ -19,14 +10,25 @@ header {
             text-align: center;
             align-content: center;
             font-family: $textoheader;
-            font-size: $tamañoheader;
+            font-size: $textotiulo;
             margin: 0;
             padding: 0;
             color: white;
             
-       }
-}
-
+          }
+     }
+ 
+.unete{
+    color: black;
+    font-family: $textoheader;
+    font-size: $textotiulo;
+   }
+   
+.titulo {
+     background-color: black;
+     padding: 0;
+     margin: 0;
+ }
 }
 
 

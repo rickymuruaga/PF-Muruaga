@@ -1,4 +1,6 @@
-nav{  
+nav{ 
+     margin: 0;
+     padding: 0;
     .container-fluid {
         @include mobile {
             display: flex;
@@ -10,9 +12,15 @@ nav{
     }
 
 
-     .navbar-brand { width: 100px;
+     .navbar-brand { margin: 0;
+                     padding: 0;
                 
-        .navbar-toggler { width: 100px;
+        .navbar-toggler {
+
+            .nav-item {  margin: 0;
+                padding: 0;
+
+            }             
                 
              ul { font-size: 20px;
                 
