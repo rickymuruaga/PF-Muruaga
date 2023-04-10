@@ -58,29 +58,27 @@ main {
     padding: 0;
     margin: 0; }
 
-nav {
+nav .container-fluid {
+  background-color: #f08d5c; }
+  @media screen and (max-width: 576px) {
+    nav .container-fluid {
+      display: flex;
+      flex-direction: column; } }
+
+nav .navbar-brand {
   margin: 0;
   padding: 0; }
-  nav .container-fluid {
-    background-color: #f08d5c; }
-    @media screen and (max-width: 576px) {
-      nav .container-fluid {
-        display: flex;
-        flex-direction: column; } }
-  nav .navbar-brand {
+  nav .navbar-brand .navbar-toggler .nav-item {
     margin: 0;
     padding: 0; }
-    nav .navbar-brand .navbar-toggler .nav-item {
-      margin: 0;
-      padding: 0; }
-    nav .navbar-brand .navbar-toggler ul {
-      font-size: 20px; }
-      nav .navbar-brand .navbar-toggler ul li {
-        list-style: none; }
-        nav .navbar-brand .navbar-toggler ul li a {
+  nav .navbar-brand .navbar-toggler ul {
+    font-size: 20px; }
+    nav .navbar-brand .navbar-toggler ul li {
+      list-style: none; }
+      nav .navbar-brand .navbar-toggler ul li a {
+        color: black; }
+        nav .navbar-brand .navbar-toggler ul li a:hover {
           color: black; }
-          nav .navbar-brand .navbar-toggler ul li a:hover {
-            color: black; }
 
 footer {
   align-items: center;
