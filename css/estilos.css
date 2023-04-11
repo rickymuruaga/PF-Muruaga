@@ -20,8 +20,8 @@ h1 {
   align-items: center;
   text-decoration: dotted;
   font-family: Courier New monospace;
-  color: #ec841e;
-  background-color: #62696a; }
+  color: #ec841e !important;
+  background-color: #62696a !important; }
   h1 p {
     text-align: center;
     align-content: center;
@@ -29,15 +29,19 @@ h1 {
     font-size: 25px;
     margin: 0;
     padding: 0;
-    color: #dd9c52;
-    background-color: #62696a; }
+    color: #dd9c52 !important; }
+  h1 .barranav {
+    bottom: 0;
+    margin: 0;
+    padding: 0; }
   h1 .titulo {
     background-color: #62696a;
     padding: 0;
     margin: 0; }
 
 body {
-  background-color: #62696a; }
+  background-color: #62696a;
+  box-sizing: border-box; }
 
 .accordion {
   background-color: #62696a; }
@@ -54,6 +58,8 @@ main {
     color: white;
     padding: 0;
     margin: 0; }
+  main .cuerpotexto {
+    color: #dd9c52 !important; }
   main .container {
     max-width: 1080px;
     width: 100%;
@@ -73,9 +79,17 @@ main {
     justify-content: center;
     align-content: space-around;
     margin-block-end: auto; }
+  main .accordion-header {
+    color: #62696a; }
+  main .formulario {
+    padding: auto;
+    margin: auto;
+    justify-content: center; }
 
 nav {
-  margin-top: 0; }
+  display: grid;
+  margin: 0;
+  padding: 0; }
   nav .container-fluid {
     background-color: #e6b378; }
     @media screen and (max-width: 576px) {
