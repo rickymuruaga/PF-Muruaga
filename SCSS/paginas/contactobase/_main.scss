@@ -37,9 +37,15 @@ main {
         background-color: #62696a !important;
      }
     
-    .cuenta{
-      background-color: #62696a !important;
-    }
+   .logos {
+      display: flex;
+      justify-content: center;
+      align-content: space-around;
+      margin-block-end: auto;
+     
+      
+      
+   }
        
     
 

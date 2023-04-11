@@ -1,18 +1,23 @@
-footer {  margin: 0;
+.footer { display: flex;
+          margin: 0;
           padding: 0;
-          bottom: 0;
-      
-      @include mobile {
+          
+
+       @include mobile {
         display: flex;
         margin: auto 0;
         margin: 0;      
         padding: 0;
+       }
        
+       .textofooter{
+        text-align: center;
        }
          align-items: center;
          margin: 0px;
          padding: 0px;
          background: $navfot;
+         justify-content: center;
 
          
 
@@ -23,8 +28,11 @@ footer {  margin: 0;
 
       }
       
-      p { 
-          color: black;  
-          text-align: center;
-       }
+      p {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+      }
+      
 }     

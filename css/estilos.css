@@ -68,8 +68,11 @@ main {
     background-size: cover;
     background-attachment: fixed;
     background-color: #62696a !important; }
-  main .cuenta {
-    background-color: #62696a !important; }
+  main .logos {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    margin-block-end: auto; }
 
 nav {
   margin-top: 0; }
@@ -96,23 +99,28 @@ nav {
           nav .navbar-brand .navbar-toggler ul li a:hover {
             color: #dd9c52; }
 
-footer {
+.footer {
+  display: flex;
   margin: 0;
   padding: 0;
-  bottom: 0;
   align-items: center;
   margin: 0px;
   padding: 0px;
-  background: #e6b378; }
+  background: #e6b378;
+  justify-content: center; }
   @media screen and (max-width: 576px) {
-    footer {
+    .footer {
       display: flex;
       margin: auto 0;
       margin: 0;
       padding: 0; } }
-  footer img {
+  .footer .textofooter {
+    text-align: center; }
+  .footer img {
     width: 50px;
     height: 50px; }
-  footer p {
-    color: black;
-    text-align: center; }
+  .footer p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0; }
