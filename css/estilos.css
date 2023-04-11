@@ -60,6 +60,11 @@ main {
     margin: 0; }
   main .cuerpotexto {
     color: #dd9c52 !important; }
+    main .cuerpotexto .formulario {
+      display: flex;
+      flex-direction: column; }
+    main .cuerpotexto .accordion {
+      background-color: #dd9c52 !important; }
   main .container {
     max-width: 1080px;
     width: 100%;
@@ -74,11 +79,6 @@ main {
     background-size: cover;
     background-attachment: fixed;
     background-color: #62696a !important; }
-  main .logos {
-    display: flex;
-    justify-content: center;
-    align-content: space-around;
-    margin-block-end: auto; }
   main .accordion-header {
     color: #62696a; }
   main .formulario {
@@ -129,7 +129,7 @@ nav {
       margin: 0;
       padding: 0; } }
   .footer .textofooter {
-    text-align: center; }
+    text-align: start; }
   .footer img {
     width: 50px;
     height: 50px; }
@@ -138,6 +138,11 @@ nav {
     align-items: center;
     margin: 0;
     padding: 0; }
+  .footer .logos {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    margin-block-end: auto; }
 
 .body {
   min-height: 100vh;
