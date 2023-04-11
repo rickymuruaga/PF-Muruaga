@@ -39,11 +39,21 @@ h1 {
 body {
   background-color: #62696a; }
 
+.accordion {
+  background-color: #62696a; }
+
 main {
   padding: 0;
   margin: 0;
   align-content: center;
   background-color: #62696a !important; }
+  main p {
+    text-align: center;
+    justify-content: center;
+    background-color: #62696a !important;
+    color: white;
+    padding: 0;
+    margin: 0; }
   main .container {
     max-width: 1080px;
     width: 100%;
@@ -58,17 +68,11 @@ main {
     background-size: cover;
     background-attachment: fixed;
     background-color: #62696a !important; }
-  main p {
-    text-align: center;
-    justify-content: center;
-    background-color: black;
-    color: white;
-    padding: 0;
-    margin: 0; }
+  main .cuenta {
+    background-color: #62696a !important; }
 
 nav {
-  margin: 0;
-  padding: 0; }
+  margin-top: 0; }
   nav .container-fluid {
     background-color: #e6b378; }
     @media screen and (max-width: 576px) {
@@ -93,6 +97,9 @@ nav {
             color: #dd9c52; }
 
 footer {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
   align-items: center;
   margin: 0px;
   padding: 0px;

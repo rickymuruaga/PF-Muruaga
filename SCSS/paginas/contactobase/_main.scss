@@ -3,6 +3,17 @@ main {
         margin: 0;
         align-content: center;
         background-color: #62696a !important;
+        p{
+         text-align: center;
+         justify-content: center;
+         background-color: #62696a !important;
+         color: white;
+         padding: 0;
+         margin: 0;
+ 
+     
+     }
+    
     
     
   
@@ -24,20 +35,12 @@ main {
         background-size:cover;
         background-attachment: fixed;
         background-color: #62696a !important;
-        } 
+     }
     
-    
-        p{
-        text-align: center;
-        justify-content: center;
-        background-color: black;
-        color: white;
-        padding: 0;
-        margin: 0;
-
-    
+    .cuenta{
+      background-color: #62696a !important;
     }
-   
+       
     
 
  }

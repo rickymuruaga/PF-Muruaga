@@ -1,4 +1,6 @@
-footer {  
+footer {  margin: 0;
+          padding: 0;
+          bottom: 0;
       
       @include mobile {
         display: flex;
