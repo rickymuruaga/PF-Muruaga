@@ -11,45 +11,53 @@
   body p {
     font-size: .5rem; } }
 
-header h1 {
+header {
+  margin: 0;
+  padding: 0; }
+
+h1 {
   text-align: center;
   align-items: center;
   text-decoration: dotted;
   font-family: Courier New monospace;
-  color: white; }
-  header h1 p {
+  color: #ec841e;
+  background-color: #62696a; }
+  h1 p {
     text-align: center;
     align-content: center;
     font-family: Courier New monospace;
     font-size: 25px;
     margin: 0;
     padding: 0;
-    color: white; }
+    color: #dd9c52;
+    background-color: #62696a; }
+  h1 .titulo {
+    background-color: #62696a;
+    padding: 0;
+    margin: 0; }
 
-header .titulo {
-  background-color: black;
-  padding: 0;
-  margin: 0; }
+body {
+  background-color: #62696a; }
 
 main {
   padding: 0;
   margin: 0;
   align-content: center;
-  background-color: black; }
+  background-color: #62696a !important; }
   main .container {
     max-width: 1080px;
     width: 100%;
     margin: auto;
     padding: 32px;
-    background-color: black; }
+    background-color: #62696a !important; }
   main .descripcion1 {
-    background-color: black; }
+    background-color: #62696a !important; }
   main .parallax {
     height: 500px;
     background-image: url(/images/parallax.webp);
     background-size: cover;
     background-attachment: fixed;
-    background-color: black; }
+    background-color: #62696a !important; }
   main p {
     text-align: center;
     justify-content: center;
@@ -58,39 +66,46 @@ main {
     padding: 0;
     margin: 0; }
 
-nav .container-fluid {
-  background-color: #f08d5c; }
-  @media screen and (max-width: 576px) {
-    nav .container-fluid {
-      display: flex;
-      flex-direction: column; } }
-
-nav .navbar-brand {
+nav {
   margin: 0;
   padding: 0; }
-  nav .navbar-brand .navbar-toggler .nav-item {
+  nav .container-fluid {
+    background-color: #e6b378; }
+    @media screen and (max-width: 576px) {
+      nav .container-fluid {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0; } }
+  nav .navbar-brand {
     margin: 0;
     padding: 0; }
-  nav .navbar-brand .navbar-toggler ul {
-    font-size: 20px; }
-    nav .navbar-brand .navbar-toggler ul li {
-      list-style: none; }
-      nav .navbar-brand .navbar-toggler ul li a {
-        color: black; }
-        nav .navbar-brand .navbar-toggler ul li a:hover {
-          color: black; }
+    nav .navbar-brand .navbar-toggler .nav-item {
+      margin: 0;
+      padding: 0; }
+    nav .navbar-brand .navbar-toggler ul {
+      font-size: 20px; }
+      nav .navbar-brand .navbar-toggler ul li {
+        list-style: none; }
+        nav .navbar-brand .navbar-toggler ul li a {
+          color: #dd9c52; }
+          nav .navbar-brand .navbar-toggler ul li a:hover {
+            color: #dd9c52; }
 
 footer {
   align-items: center;
   margin: 0px;
   padding: 0px;
-  background: #f08d5c; }
+  background: #e6b378; }
   @media screen and (max-width: 576px) {
     footer {
       display: flex;
-      flex-direction: column; } }
+      margin: auto 0;
+      margin: 0;
+      padding: 0; } }
   footer img {
     width: 50px;
     height: 50px; }
   footer p {
-    color: black; }
+    color: black;
+    text-align: center; }
